@@ -1,32 +1,59 @@
-# Haitham Saleh
+# Hi, I'm Haitham Saleh
 
-**Healthcare data analyst** | Tempe, Arizona | Microsoft Certified: Power BI Data Analyst Associate (PL-300)
+**Data Analyst specializing in Healthcare Analytics, Relational Database Architecture, and Business Intelligence.**
 
-I work where U.S. healthcare operations meet data: Medicare, claims, coding and denials. I come from the business side (denied-claims recovery across 70+ payers, collections and operations leadership, licensed Medicare agent in all 50 states) and I build SQL Server and Power BI analytics on real public data.
+Licensed Medicare insurance agent turned analyst. I pair front-line knowledge of how Medicare plans, claims and denials
+actually work with SQL Server, Python and Power BI, so the numbers answer the questions the business is really asking.
+Microsoft Certified: Power BI Data Analyst Associate (PL-300).
 
-## Projects
+![T-SQL](https://img.shields.io/badge/T--SQL-SQL%20Server-CC2927?style=for-the-badge&logo=microsoftsqlserver&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Power BI](https://img.shields.io/badge/Power%20BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
+![DAX](https://img.shields.io/badge/DAX-0078D4?style=for-the-badge)
+![Power Query](https://img.shields.io/badge/Power%20Query-217346?style=for-the-badge)
 
-| Project | What it answers | Stack |
-|---|---|---|
-| [CMS E/M Coding Intensity Atlas](https://github.com/Haitham1111/coding-intensity-analytics) | How office-visit E/M levels (99202-99215) vary by specialty, state and year, 2017-2024, and what the 2021 coding overhaul changed. Arizona vs national. | T-SQL, Python, Power BI, DAX |
-| [Medicare Advantage Star Ratings Analytics](https://github.com/Haitham1111/medicare-enrollment-analytics) | How contract Star Ratings moved from 2024 to 2025 and which contracts are at risk of dropping. | T-SQL, Power BI, DAX |
-| [Healthcare Denials & Appeals Analytics](https://github.com/Haitham1111/healthcare-denials-analytics) | Which payers deny, why, and where appeals pay off. Uses a synthetic claims dataset. | T-SQL, Power BI, DAX |
-| [Auction Inventory Analytics](https://github.com/Haitham1111/auction-inventory-analytics) | What liquidation lots sell for versus advertised retail (two Phoenix auctions, 168 lots). | T-SQL, Python, Power BI, DAX |
+## Featured Projects
 
-Each repo has the SQL, the result screenshots, the Power BI file, documented DAX and a limits section.
+### [Medicare Advantage Star Ratings Analytics](https://github.com/Haitham1111/medicare-enrollment-analytics)
+*T-SQL, Power BI, DAX, CMS Star Ratings 2024-2025*
 
-## Toolbox
+Showed that the share of contracts at the 4-star bonus threshold fell from 44.4% to 40.9%, and that 56 of the 242
+contracts rated 4+ stars in 2024 dropped below the line in 2025. The reconciled, query-backed findings give plan-performance
+teams a clear view of which carriers are gaining or losing quality-bonus revenue.
 
-SQL Server / T-SQL (CTEs, window functions) · Power BI · DAX · Power Query · Python (pandas) · Advanced Excel · CMS Star Ratings · CPT/HCPCS · ICD-10 · E/M coding · revenue cycle management
+### [Healthcare Denials Analytics](https://github.com/Haitham1111/healthcare-denials-analytics)
+*T-SQL, Python, Power BI, synthetic revenue-cycle data*
 
-## Background
+Traced denials to specific payers and CARC reasons, found $150,135 of billed revenue at risk across 889 denied claims, and
+showed appeal overturn rates ranging from 33.3% to 76.9% by payer. That tells a revenue-cycle team exactly where appeal
+labor pays off and where upstream fixes (documentation, authorizations) are cheaper.
 
-- **Senior Agent, Medicare Sales**, Tobias & Associates (2025 to present)
-- **Denied Department Manager & Associate**, Brain Health USA (2023-2025)
-- **Team Leader, Collections**, Elevate Holding (2022-2023)
-- **Operations Supervisor & SME**, Expedia Group (2019-2022)
-- **B.S. Management Information Systems**, New Cairo Academy
+### [Auction Inventory Analytics](https://github.com/Haitham1111/auction-inventory-analytics)
+*Python, T-SQL, Power BI, 168 liquidation lots*
+
+Quantified that lots hammered 88.1% below advertised retail and that the top 5 buyers took 61% of dollars. A reseller can
+use it to set realistic bid ceilings and to see which categories offer the widest retail-to-hammer gap.
+
+Also: [E/M Coding Intensity Atlas](https://github.com/Haitham1111/coding-intensity-analytics): CMS office-visit level mix,
+2017-2024, national vs Arizona.
+
+## What I Work With
+
+- **Relational databases:** T-SQL on SQL Server: CTEs, window functions, star-schema design, reconciliation scripts
+- **Analytics engineering:** Python ETL and validation, Power Query shaping
+- **Business intelligence:** Power BI dashboards with documented DAX measures and custom themes
+- **Domain:** Medicare Advantage, CMS public data, claim denials and revenue cycle
 
 ## Contact
 
-haithamkamal98@gmail.com · [LinkedIn](https://www.linkedin.com/in/haitham-saleh-8a1a12206)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Haitham%20Saleh-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/haitham-saleh-8a1a12206)
+[![GitHub](https://img.shields.io/badge/GitHub-Haitham1111-181717?style=flat&logo=github&logoColor=white)](https://github.com/Haitham1111)
+
+Based in Arizona. Message me on LinkedIn.
+
+## GitHub Stats
+
+<p>
+  <img height="160" alt="GitHub stats" src="https://github-readme-stats.vercel.app/api?username=Haitham1111&show_icons=true&hide_border=true&count_private=false" />
+  <img height="160" alt="Top languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Haitham1111&layout=compact&hide_border=true" />
+</p>
